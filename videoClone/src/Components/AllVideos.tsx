@@ -29,7 +29,7 @@ const AllVideos: React.FC = () => {
     <div key="allVideos">
       <div
         key="container"
-        className="w-[90%]  mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 justify-center items-center align-middle"
+        className="w-[90%] pt-[20px]  mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 justify-center items-center align-middle"
       >
         {/* Message for empty list */}
         {!state.allPosts.length && (

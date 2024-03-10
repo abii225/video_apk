@@ -19,7 +19,7 @@ const Pagination: React.FC<any> = ({ current, setPage }) => {
   return (
     <div className="max-w-[280px] h-[60px] mx-auto flex flex-row align-middle items-center justify-evenly text-white ">
       <button
-        className="p-2 bg-slate-500 font-primary text-[18px] rounded-xl"
+        className="p-2 bg-orange-500 font-primary text-[18px] rounded-xl"
         disabled={current === 0 ? true : false}
         style={{
           cursor: `${current === 0 ? "not-allowed" : `pointer`}`,
@@ -30,7 +30,7 @@ const Pagination: React.FC<any> = ({ current, setPage }) => {
       </button>
       <h2 className="font-primary text-[28px] text-white"> {current} </h2>
       <button
-        className="p-2 bg-slate-500 font-primary text-[18px] rounded-xl"
+        className="p-2 bg-orange-500 font-primary text-[18px] rounded-xl"
         disabled={state.allPosts.length === 0 ? true : false}
         style={{
           cursor: `${state.allPosts.length > 0 ? "pointer" : `not-allowed`}`,

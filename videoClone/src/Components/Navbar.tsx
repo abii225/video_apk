@@ -1,6 +1,7 @@
-
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate = useNavigate();
   return (
     <div
       key="navbar"
@@ -8,9 +9,10 @@ const Navbar = () => {
     >
       <div className="h-[80%]  align-center">
         <img
-          className="h-[100%]"
+          className="h-[100%] cursor-pointer"
           src="https://i.ibb.co/Q70Pn7w/logo.png"
           alt=""
+          onClick={() => navigate("/")}
         />
       </div>
     </div>

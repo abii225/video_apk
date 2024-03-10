@@ -8,7 +8,9 @@ const PostComment = () => {
         cols={30}
         rows={1}
       ></textarea>
-      <button className="w-[100px] p-2 bg-slate-600">Submit</button>
+      <button className="w-[100px] p-2 bg-orange-500 font-primary text-[18px] font-semibold text-white rounded-md">
+        Submit
+      </button>
     </div>
   );
 };

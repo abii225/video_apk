@@ -1,5 +1,3 @@
-import React from "react";
-
 const PostComment = () => {
   return (
     <div className=" w-[100%] max-w-[500px]   rounded-md">

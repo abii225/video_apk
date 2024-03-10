@@ -1,5 +1,3 @@
-import React from "react";
-
 const Footer = () => {
   return (
     <>
@@ -24,19 +22,7 @@ const Footer = () => {
                   Resources
                 </h2>
                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                  <li className="mb-4">
-                    <a href="https://flowbite.com/" className="hover:underline">
-                      React - Typescript
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://tailwindcss.com/"
-                      className="hover:underline"
-                    >
-                      Tailwind CSS
-                    </a>
-                  </li>
+                 
                 </ul>
               </div>
               <div>

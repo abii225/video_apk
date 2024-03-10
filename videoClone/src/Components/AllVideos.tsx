@@ -27,15 +27,20 @@ const AllVideos: React.FC = () => {
   }, [page]);
   return (
     <div key="allVideos">
-      <h1 className="font-primary text-white">All videos to showcase</h1>
       <div
         key="container"
-        className="w-[90%]  mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2"
+        className="w-[90%]  mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 justify-center items-center align-middle"
       >
-        {/* <SingleVideo />
-        
-        <SingleVideo /> */}
+        {/* Message for empty list */}
+        {!state.allPosts.length && (
+          <div className=" h-[400px] mt-[50px] ">
+            <h1 className="text-white text-center text-[30px]">
+              Empty page , Please go to previous page
+            </h1>
+          </div>
+        )}
 
+        {/*  */}
         {state.allPosts.length &&
           state.allPosts.map((ele: any) => {
             return <SingleVideo data={ele} />;

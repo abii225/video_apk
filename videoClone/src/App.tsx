@@ -1,14 +1,19 @@
 import "./App.css";
-import AllVideos from "./Components/AllVideos";
+import Footer from "./Components/Footer";
+
 import Navbar from "./Components/Navbar";
+import AllRoutes from "./Pages/AllRoutes";
 
 function App() {
   return (
     <>
-      <div className="bg-black h-[1000px]">
+      <div className="bg-black ">
         <Navbar />
         <hr />
-        <AllVideos />
+        <AllRoutes />
+        <br />
+        <br />
+        <Footer />
       </div>
     </>
   );

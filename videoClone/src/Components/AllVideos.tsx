@@ -1,4 +1,3 @@
-import React from "react";
 import SingleVideo from "./SingleVideo";
 
 const AllVideos = () => {
@@ -268,8 +267,15 @@ const AllVideos = () => {
       <h1 className="font-primary text-white">All videos to showcase</h1>
       <div
         key="container"
-        className="w-[90%] h-[100vh] bg-green-500 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2"
+        className="w-[90%]  mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2"
       >
+        <SingleVideo />
+        <SingleVideo />
+        <SingleVideo />
+        <SingleVideo />
+        <SingleVideo />
+        <SingleVideo />
+        <SingleVideo />
         <SingleVideo />
         <SingleVideo />
         <SingleVideo />

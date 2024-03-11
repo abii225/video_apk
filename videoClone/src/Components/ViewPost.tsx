@@ -17,16 +17,24 @@ const ViewPost: React.FC = () => {
   //  filter out the single post
 
   useEffect(() => {
-    let singlePost = state.allPosts.filter((ele: { postId: string }) => {
-      return ele.postId === id;
-    });
-    setData(() => {
-      return singlePost[0];
-    });
-    console.log(singlePost, "filtered");
-    timerId = setTimeout(() => {
-      setLoading(false);
-    }, 3000);
+    try {
+      let lsData = localStorage.getItem("AllPosts");
+      if (lsData) {
+        const parsedData = JSON.parse(lsData);
+        let singlePost = parsedData.filter((ele: { postId: string }) => {
+          return ele.postId === id;
+        });
+        setData(() => {
+          return singlePost[0];
+        });
+        console.log(singlePost, "filtered");
+        timerId = setTimeout(() => {
+          setLoading(false);
+        }, 3000);
+      }
+    } catch (err) {
+      console.log(err);
+    }
 
     return () => {
       clearTimeout(timerId);
@@ -73,13 +81,17 @@ const ViewPost: React.FC = () => {
             )}
           </div>
           <div id=" " className=" w-[90%] mx-auto mt-[20px]">
-            <div className="min-w-[150px]">
+            <div className="min-w-[150px] max-w-[400px] ">
               <PostProfile data={data} />
+              {/* <div className="w-[100px] p-2 text-white bg-green-500 ">
+                Follow
+              </div> */}
             </div>
             <div className="max-w-[1000px]">
               <h1 className="text-white font-primary text-[18px] md:text-[25px] leading-[20px] mt-[10px]">
                 {data.submission.title}
               </h1>
+              <br />
               <hr />
               <br />
               <p className="text-white font-primary text-[15px] md:text-[18px] leading-[20px]">

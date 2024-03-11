@@ -1,4 +1,7 @@
 const PostComment = () => {
+
+
+  
   return (
     <div className=" w-[100%] max-w-[500px]   rounded-md">
       <textarea

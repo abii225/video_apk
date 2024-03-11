@@ -32,7 +32,7 @@ Vite Build: Developed with Vite for ease of compilation and bundling, ensuring s
 
 
 VideoClone: VideoClone is a sleek and responsive web application, built with Tailwind CSS, React TypeScript, and React Router, enabling seamless video content consumption, interaction, and exploration with efficient pagination and single post views, all managed with Context API state management and compiled with Vite for optimal performance.
-**Netlify :**  [Taskify Website](https://videoclone225.netlify.app/)
+**Netlify :**  [VideoClone Website](https://videoclone225.netlify.app/)
 ## Tech Stack
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)

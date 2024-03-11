@@ -1,9 +1,11 @@
 import React, { useContext, useEffect, useState } from "react";
 
 import PostProfile from "./PostProfile";
-import PostComment from "./PostComment";
+
 import { DataContext } from "../Context/ContextApi";
 import { useParams } from "react-router-dom";
+import Comments from "./Comments";
+import PostComment from "./PostComment";
 
 const ViewPost: React.FC = () => {
   let timerId: string | number | NodeJS.Timeout | undefined;
@@ -61,7 +63,7 @@ const ViewPost: React.FC = () => {
         <div>
           <div
             key="video_container"
-            className="w-[90%] mx-auto h-[250px] md:h-[300px] lg:h-[400px] bg-white mt-[20px]"
+            className="w-[90%] mx-auto h-[250px] md:h-[300px] lg:h-[400px] mt-[20px]"
             onClick={() => setClick((prev) => !prev)}
           >
             {!click && (
@@ -100,8 +102,15 @@ const ViewPost: React.FC = () => {
             </div>
             <br />
             {/* ============  comments section =============== */}
-            <div className="max-w-[1000px] h-[50px]  border-2 border-white"></div>
-            <PostComment />
+            <div className="max-w-[1000px]  border-2 border-white p-2 bg-slate-700 rounded-md">
+              <PostComment />
+              <div className="flex flex-col gap-3 mt-[10px] ">
+                <Comments />
+                <Comments />
+                <Comments />
+                <Comments />
+              </div>
+            </div>
           </div>
         </div>
       )}

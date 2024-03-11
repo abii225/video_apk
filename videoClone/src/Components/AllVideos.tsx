@@ -92,8 +92,10 @@ const AllVideos: React.FC = () => {
       // Fetch data from server if not found in local storage
       fetchData(page);
     }
-  }, [page, setState]);
-
+  }, [setState]);
+  useEffect(() => {
+    fetchData(page);
+  }, [page]);
   return (
     <div key="allVideos">
       <div
@@ -103,8 +105,8 @@ const AllVideos: React.FC = () => {
         {/* Message for empty list */}
         {!state.allPosts.length && (
           <div className=" h-[400px] mt-[50px] ">
-            <h1 className="text-white text-center text-[30px]">
-              Empty page , Please go to previous page
+            <h1 className="text-white text-center font-primary text-[50px]">
+              Empty page
             </h1>
           </div>
         )}

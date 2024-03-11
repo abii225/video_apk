@@ -41,18 +41,20 @@ VideoClone: VideoClone is a sleek and responsive web application, built with Tai
 
 #### Home Page :-
 This is the homepage of VideoClone web application.
+<br>
 <a href="https://ibb.co/61N593K"><img src="https://i.ibb.co/5n2VpNQ/Home.png" alt="Home" border="0"></a>
 
 
 #### Pagination :-
 This is the pagination area so that user can dynamically view the contents of each page.
-
+<br>
 <a href="https://ibb.co/K7SLY0m"><img src="https://i.ibb.co/WFjPQxs/footer.png" alt="footer" border="0"></a>
 
 
 #### Single Page :-
-
+<br>
 This is the single page where the user can see the video content , the creator info and comments and reactions gained for the content.
+<br>
 <a href="https://ibb.co/Th8cZfQ"><img src="https://i.ibb.co/885MJCy/singlepage.png" alt="singlepage" border="0"></a>
 
 
@@ -61,6 +63,7 @@ This is the single page where the user can see the video content , the creator i
 #### Add a Comment :-
 
 Here the user can react to the content by comments.
+<br>
 <a href="https://ibb.co/sQChHjz"><img src="https://i.ibb.co/vmhbY1R/comments.png" alt="comments" border="0"></a>
 
 

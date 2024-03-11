@@ -51,7 +51,7 @@ This is the pagination area so that user can dynamically view the contents of ea
 <a href="https://ibb.co/K7SLY0m"><img src="https://i.ibb.co/WFjPQxs/footer.png" alt="footer" border="0"></a>
 
 
-#### Single Page :-
+### Single Page :-
 <br>
 This is the single page where the user can see the video content , the creator info and comments and reactions gained for the content.
 <br>
@@ -60,7 +60,7 @@ This is the single page where the user can see the video content , the creator i
 
 
 
-## Add a Comment :-
+### Add a Comment :-
 
 Here the user can react to the content by comments.
 <br>

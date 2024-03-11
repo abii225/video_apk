@@ -10,7 +10,7 @@ Introducing Videoclone: A Tailwind CSS, React TypeScript, and React Router Appli
 
 Videoclone is a state-of-the-art web application designed to streamline video content consumption. Developed using Tailwind CSS, React TypeScript, and React Router, Videoclone offers a user-friendly interface and efficient navigation capabilities.
 
-<u>Key Features:</u>
+## Key Features:
 
 <u>Video Posts</u> : Share and view video content effortlessly within the application.
 
@@ -39,13 +39,13 @@ VideoClone: VideoClone is a sleek and responsive web application, built with Tai
  ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)  ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) 
 
 
-#### Home Page :-
+### Home Page :-
 This is the homepage of VideoClone web application.
 <br>
 <a href="https://ibb.co/61N593K"><img src="https://i.ibb.co/5n2VpNQ/Home.png" alt="Home" border="0"></a>
 
 
-#### Pagination :-
+### Pagination :-
 This is the pagination area so that user can dynamically view the contents of each page.
 <br>
 <a href="https://ibb.co/K7SLY0m"><img src="https://i.ibb.co/WFjPQxs/footer.png" alt="footer" border="0"></a>
@@ -60,7 +60,7 @@ This is the single page where the user can see the video content , the creator i
 
 
 
-#### Add a Comment :-
+## Add a Comment :-
 
 Here the user can react to the content by comments.
 <br>
@@ -68,7 +68,7 @@ Here the user can react to the content by comments.
 
 
 
-Getting Started:
+## Getting Started:
 
 Clone the Repository: Clone the Videoclone repository using the command: git clone [repository_url].
 

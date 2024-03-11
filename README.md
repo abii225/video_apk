@@ -10,23 +10,23 @@ Introducing Videoclone: A Tailwind CSS, React TypeScript, and React Router Appli
 
 Videoclone is a state-of-the-art web application designed to streamline video content consumption. Developed using Tailwind CSS, React TypeScript, and React Router, Videoclone offers a user-friendly interface and efficient navigation capabilities.
 
-Key Features:
+<u>Key Features:</u>
 
-Video Posts: Share and view video content effortlessly within the application.
+<u>Video Posts</u> : Share and view video content effortlessly within the application.
 
-Interaction: Engage with video content by liking and commenting on posts.
+<u>Interaction</u>: Engage with video content by liking and commenting on posts.
 
-Grid View Homepage: Explore video posts conveniently through a grid layout on the homepage.
+<u>Grid View Homepage</u>: Explore video posts conveniently through a grid layout on the homepage.
 
-Pagination: Seamlessly navigate through multiple pages of video posts with pagination functionality.
+<u>Pagination</u>: Seamlessly navigate through multiple pages of video posts with pagination functionality.
 
-Single Post View: Dive deeper into individual video posts for a focused viewing experience.
+<u>Single Post View</u>: Dive deeper into individual video posts for a focused viewing experience.
 
-Responsive Design: Enjoy a consistent user experience across various devices, thanks to responsive design principles.
+<u>Responsive Design</u>: Enjoy a consistent user experience across various devices, thanks to responsive design principles.
 
-Context API State Management: Efficiently manage application state using Context API for optimal performance.
+<u>Context API State Management</u>: Efficiently manage application state using Context API for optimal performance.
 
-Additional Features:
+<u>Additional Features</u>:
 
 Vite Build: Developed with Vite for ease of compilation and bundling, ensuring swift development iterations and enhanced performance.
 
@@ -42,7 +42,7 @@ VideoClone: VideoClone is a sleek and responsive web application, built with Tai
 #### Home Page :-
 This is the homepage of VideoClone web application.
 
-![Screenshot 2023-11-06 125856](https://i.ibb.co/qYLqG16/progress.png)
+![Screenshot 2023-11-06 125856](<a href="https://ibb.co/61N593K"><img src="https://i.ibb.co/5n2VpNQ/Home.png" alt="Home" border="0"></a>)
 
 
 #### Pagination :-
